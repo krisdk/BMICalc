@@ -20,6 +20,10 @@
 		F6C45630159D09B90043456F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C45611159D09B70043456F /* Foundation.framework */; };
 		F6C45638159D09B90043456F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6C45636159D09B90043456F /* InfoPlist.strings */; };
 		F6C4563B159D09B90043456F /* BMICalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C4563A159D09B90043456F /* BMICalcTests.m */; };
+		F6EBEC4E15D3E7F4003CBA05 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EBEC4D15D3E7F4003CBA05 /* Default.png */; };
+		F6EBEC5115D3E7FA003CBA05 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EBEC5015D3E7FA003CBA05 /* Default@2x.png */; };
+		F6EBEC5315D3E812003CBA05 /* Icon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EBEC5215D3E812003CBA05 /* Icon57x57.png */; };
+		F6EBEC5515D3E82A003CBA05 /* Icon114x114.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6EBEC5415D3E82A003CBA05 /* Icon114x114.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +41,25 @@
 		F6C4560F159D09B70043456F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F6C45611159D09B70043456F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F6C45613159D09B70043456F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F6C45617159D09B80043456F /* BMICalc-Info.plist */ = {isa = PBXFileReference; path = "BMICalc-Info.plist"; sourceTree = "<group>"; };
+		F6C45617159D09B80043456F /* BMICalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMICalc-Info.plist"; sourceTree = "<group>"; };
 		F6C45619159D09B80043456F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6C4561B159D09B80043456F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F6C4561D159D09B80043456F /* BMICalc-Prefix.pch */ = {isa = PBXFileReference; path = "BMICalc-Prefix.pch"; sourceTree = "<group>"; };
-		F6C4561E159D09B80043456F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6C4561D159D09B80043456F /* BMICalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMICalc-Prefix.pch"; sourceTree = "<group>"; };
+		F6C4561E159D09B80043456F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6C4561F159D09B80043456F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F6C45622159D09B80043456F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F6C45624159D09B80043456F /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F6C45624159D09B80043456F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F6C45625159D09B80043456F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F6C4562C159D09B90043456F /* BMICalcTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMICalcTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C4562D159D09B90043456F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F6C45635159D09B90043456F /* BMICalcTests-Info.plist */ = {isa = PBXFileReference; path = "BMICalcTests-Info.plist"; sourceTree = "<group>"; };
+		F6C45635159D09B90043456F /* BMICalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMICalcTests-Info.plist"; sourceTree = "<group>"; };
 		F6C45637159D09B90043456F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F6C45639159D09B90043456F /* BMICalcTests.h */ = {isa = PBXFileReference; path = BMICalcTests.h; sourceTree = "<group>"; };
+		F6C45639159D09B90043456F /* BMICalcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMICalcTests.h; sourceTree = "<group>"; };
 		F6C4563A159D09B90043456F /* BMICalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMICalcTests.m; sourceTree = "<group>"; };
+		F6EBEC4D15D3E7F4003CBA05 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Baggrunde/Default.png; sourceTree = "<group>"; };
+		F6EBEC5015D3E7FA003CBA05 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Baggrunde/Default@2x.png"; sourceTree = "<group>"; };
+		F6EBEC5215D3E812003CBA05 /* Icon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon57x57.png; path = Icons/Icon57x57.png; sourceTree = "<group>"; };
+		F6EBEC5415D3E82A003CBA05 /* Icon114x114.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Icon114x114.jpg; path = Icons/Icon114x114.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 		F6C45600159D09AE0043456F = {
 			isa = PBXGroup;
 			children = (
+				F6EBEC5015D3E7FA003CBA05 /* Default@2x.png */,
+				F6EBEC4D15D3E7F4003CBA05 /* Default.png */,
+				F6EBEC5415D3E82A003CBA05 /* Icon114x114.jpg */,
+				F6EBEC5215D3E812003CBA05 /* Icon57x57.png */,
 				F6C45615159D09B70043456F /* BMICalc */,
 				F6C45633159D09B90043456F /* BMICalcTests */,
 				F6C4560E159D09B60043456F /* Frameworks */,
@@ -223,6 +235,10 @@
 			files = (
 				F6C4561A159D09B80043456F /* InfoPlist.strings in Resources */,
 				F6C45623159D09B80043456F /* MainStoryboard.storyboard in Resources */,
+				F6EBEC4E15D3E7F4003CBA05 /* Default.png in Resources */,
+				F6EBEC5115D3E7FA003CBA05 /* Default@2x.png in Resources */,
+				F6EBEC5315D3E812003CBA05 /* Icon57x57.png in Resources */,
+				F6EBEC5515D3E82A003CBA05 /* Icon114x114.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +445,7 @@
 				F6C45640159D09B90043456F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6C45641159D09B90043456F /* Build configuration list for PBXNativeTarget "BMICalcTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +454,7 @@
 				F6C45643159D09B90043456F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
